@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+#win {
+    /*希望窗口有边框*/
+    border: black 1px solid;
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    /*设置默认不可见*/
+    display: none;
+}
+/*控制标题栏的背景色*/
+#tatle{
+    background-color: black;
+    color: azure;
+    padding-top : 10px;
+    padding-bottom: 10px;
+}
+#close{
+   float: right;
+    /*让鼠标变成小手*/
+    cursor: pointer;
+}
